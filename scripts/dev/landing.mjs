@@ -173,4 +173,5 @@ try {
   await browser.close();
   for (const p of before) await db.from("profiles").update({ status: p.status }).eq("user_id", p.user_id);
   console.log(results.join("\n"));
+  if (results.some((r) => /^(FAIL|ERROR)/.test(r))) process.exitCode = 1;
 }

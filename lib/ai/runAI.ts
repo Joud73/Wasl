@@ -28,7 +28,7 @@ function verifyModel(model: string) {
   verified.add(model);
   generateText({ model: anthropic(model), prompt: "ping", maxOutputTokens: 1, maxRetries: 0 })
     .then(() => console.info(`[ai] model ${model} verified`))
-    .catch((error: unknown) => console.error(`[ai] model ${model} failed verification:`, error instanceof Error ? error.message : error));
+    .catch((error: unknown) => console.error(`[ai] model ${model} failed verification:`, error instanceof Error ? error.message : "unknown error"));
 }
 
 const DATA_RULE =

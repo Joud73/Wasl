@@ -166,4 +166,5 @@ try {
   }
   await db.from("ai_runs").delete().eq("task", "assist_tone").gte("created_at", started);
   console.log(results.join("\n"));
+  if (results.some((r) => /^(FAIL|ERROR)/.test(r))) process.exitCode = 1;
 }

@@ -42,6 +42,7 @@ try {
   });
   const lines = (await res.text()).trim().split("\n").filter(Boolean).map((l) => JSON.parse(l));
   const last = lines.at(-1);
+  if (!res.ok()) process.exitCode = 1;
   console.log(JSON.stringify({ status: res.status(), partials: lines.length - 1, roundTripMs: Date.now() - started, result: last }, null, 2));
   const { data: run } = await db
     .from("ai_runs")

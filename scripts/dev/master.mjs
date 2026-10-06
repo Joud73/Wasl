@@ -188,4 +188,5 @@ try {
     await db.auth.admin.deleteUser(askerId);
   }
   console.log(results.join("\n"));
+  if (results.some((r) => /^(FAIL|ERROR)/.test(r))) process.exitCode = 1;
 }

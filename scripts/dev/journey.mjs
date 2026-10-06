@@ -431,4 +431,5 @@ try {
   await setStatus(DAEE1, "available");
   await setStatus(DAEE2, "busy");
   console.log(results.join("\n"));
+  if (results.some((r) => /^(FAIL|ERROR)/.test(r))) process.exitCode = 1;
 }

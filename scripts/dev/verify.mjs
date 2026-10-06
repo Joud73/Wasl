@@ -192,4 +192,5 @@ try {
     await db.auth.admin.deleteUser(a.user_id);
   }
   console.log(results.join("\n"));
+  if (results.some((r) => /^(FAIL|ERROR)/.test(r))) process.exitCode = 1;
 }
