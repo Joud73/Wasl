@@ -313,7 +313,7 @@
       "routing": "Penyaluran pertama yang tepat",
       "routingDef": "Percakapan tersalurkan yang tetap bersama dai pertama.",
       "resumption": "Kelanjutan yang tepat",
-      "resumptionDef": "Tindak lanjut berbasis kartu yang dinilai cukup oleh dai.",
+      "resumptionDef": "Tindak lanjut berbasis kartu yang dijawab ya oleh dai untuk keduanya: konteks cukup dan kartu akurat.",
       "accuracy": "Akurasi kartu",
       "accuracyDef": "Kartu disetujui tanpa suntingan besar oleh penanya.",
       "notEnough": "Data belum cukup",

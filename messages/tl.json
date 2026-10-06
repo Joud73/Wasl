@@ -313,7 +313,7 @@
       "routing": "Tamang unang routing",
       "routingDef": "Mga na-route na pag-uusap na nanatili sa unang dāʿī.",
       "resumption": "Tamang pagpapatuloy",
-      "resumptionDef": "Mga pagpapatuloy batay sa card na minarkahan ng dāʿī na sapat.",
+      "resumptionDef": "Mga follow-up na may card kung saan oo ang sagot ng dāʿī sa dalawa: sapat ang konteksto at tumpak ang card.",
       "accuracy": "Katumpakan ng card",
       "accuracyDef": "Mga naaprubahang card na walang malaking pagbabago mula sa nagtatanong.",
       "notEnough": "Kulang ang data",

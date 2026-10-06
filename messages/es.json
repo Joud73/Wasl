@@ -313,7 +313,7 @@
       "routing": "Primer enrutamiento correcto",
       "routingDef": "Conversaciones enrutadas que siguieron con el primer dāʿī.",
       "resumption": "Reanudación correcta",
-      "resumptionDef": "Seguimientos con tarjeta que el dāʿī calificó como suficientes.",
+      "resumptionDef": "Seguimientos con tarjeta en los que el dāʿī respondió sí a ambas: el contexto bastó y la tarjeta era precisa.",
       "accuracy": "Precisión de la tarjeta",
       "accuracyDef": "Tarjetas aprobadas sin una edición importante de la persona.",
       "notEnough": "Datos insuficientes",

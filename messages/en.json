@@ -313,7 +313,7 @@
       "routing": "Correct first routing",
       "routingDef": "Routed conversations that stayed with the first dāʿī.",
       "resumption": "Correct resumption",
-      "resumptionDef": "Card-based follow-ups the dāʿī rated sufficient.",
+      "resumptionDef": "Card-based follow-ups where the dāʿī answered yes to both: the context was enough, and the card was accurate.",
       "accuracy": "Card accuracy",
       "accuracyDef": "Approved cards with no major edit by the asker.",
       "notEnough": "Not enough data",

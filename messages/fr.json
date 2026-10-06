@@ -313,7 +313,7 @@
       "routing": "Premier routage correct",
       "routingDef": "Conversations routées restées avec le premier dāʿī.",
       "resumption": "Reprise correcte",
-      "resumptionDef": "Suivis basés sur une carte jugés suffisants par le dāʿī.",
+      "resumptionDef": "Suivis fondés sur une carte où le dāʿī a répondu oui aux deux : le contexte suffisait et la carte était exacte.",
       "accuracy": "Exactitude des cartes",
       "accuracyDef": "Cartes approuvées sans modification majeure par la personne.",
       "notEnough": "Données insuffisantes",
