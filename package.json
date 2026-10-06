@@ -11,6 +11,7 @@
     "lint:rtl": "node scripts/check-logical.mjs",
     "seed": "tsx --env-file=.env.local --conditions=react-server scripts/seed.ts",
     "demo:reset": "tsx --env-file=.env.local --conditions=react-server scripts/demo-reset.ts",
+    "seed:demo": "tsx --env-file=.env.local --conditions=react-server scripts/seed-demo.ts",
     "og": "node scripts/dev/og.mjs",
     "evals": "promptfoo eval -c evals/promptfooconfig.yaml --no-cache && promptfoo eval -c evals/classify.yaml --no-cache && npm run evals:sources && npm run evals:assist",
     "test:ai": "node --env-file=.env.local scripts/dev/ai-card.mjs",
